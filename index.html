@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+    </header>
+    <main>
+        <section id="customize">
+            <p>Click buttons below to customize</p>
+            <div id="buttons">
+                <!-- Number of cells -->
+                <div class="dropdown">
+                    <button class="dropbtn">Number of cells</button>
+                    <div class="dropdown-content">
+                      <a href="#">8 x 8</a>
+                      <a href="#">16 x 16</a>
+                      <a href="#">32 x 32</a>
+                      <a href="#">64 x 64</a>
+                    </div>
+                </div>
+
+                <!-- Color -->
+                <div class="dropdown">
+                    <button class="dropbtn">Cell color</button>
+                    <div class="dropdown-content">
+                      <a href="#">Black</a>
+                      <a href="#">Red</a>
+                      <a href="#">Random</a>
+                    </div>
+                </div>
+
+                <!-- Opacity -->
+                <div class="dropdown">
+                    <button class="dropbtn">Color saturation</button>
+                    <div class="dropdown-content">
+                      <a href="#">Low</a>
+                      <a href="#">Low to high</a>
+                      <a href="#">High</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sketch">
+            <div id="sketchPad"></div>
+        </section>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
