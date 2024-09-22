@@ -23,17 +23,35 @@ header h1 {
 main {
     height: 94vh;
     width: inherit;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
 }
 
+
+#sketch {
+    height: 81vh;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid purple;
+}
+
+
 #customize{
-    height: 7vw;
+    height: 13vh;
     width: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border: 2px solid black;
+}
+
+#customize p {
+    color: rgb(65, 65, 65);
+    font-style: italic;
 }
 
 .dropdown {
@@ -77,6 +95,30 @@ main {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#sketchPad {
+    height: 450px;
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.divStyle {
+    border: 1px solid black;
+}
+
+#erase {
+    border-style: none;
+    padding: 10px 15px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#erase:hover {
     background-color: #3e8e41;
 }
   
