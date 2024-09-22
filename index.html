@@ -12,26 +12,14 @@
     </header>
     <main>
         <section id="customize">
-            <p>Click buttons below to customize</p>
             <div id="buttons">
-                <!-- Number of cells -->
-                <div class="dropdown">
-                    <button class="dropbtn">Number of cells</button>
-                    <div class="dropdown-content">
-                      <a href="#">8 x 8</a>
-                      <a href="#">16 x 16</a>
-                      <a href="#">32 x 32</a>
-                      <a href="#">64 x 64</a>
-                    </div>
-                </div>
-
                 <!-- Color -->
                 <div class="dropdown">
                     <button class="dropbtn">Cell color</button>
                     <div class="dropdown-content">
-                      <a href="#">Black</a>
-                      <a href="#">Red</a>
-                      <a href="#">Random</a>
+                      <a href="#" id="black">Black</a>
+                      <a href="#" id="red">Red</a>
+                      <a href="#" id="random">Random</a>
                     </div>
                 </div>
 
@@ -39,18 +27,27 @@
                 <div class="dropdown">
                     <button class="dropbtn">Color saturation</button>
                     <div class="dropdown-content">
-                      <a href="#">Low</a>
-                      <a href="#">Low to high</a>
-                      <a href="#">High</a>
+                      <a href="#" id="low">Low</a>
+                      <!-- <a href="#" id="lowHigh">Low to high</a> -->
+                      <a href="#" id="high">High</a>
+                    </div>
+                </div>
+
+                <!-- Erase -->
+                <div class="dropdown">
+                    <button class="dropbtn">Erase</button>
+                    <div class="dropdown-content">
+                      <a href="#" id="eraseAll">All</a>
+                      <a href="#" id="eraseCell">Per cell</a>
                     </div>
                 </div>
             </div>
+            <p>(Hover over buttons above for customization, click to select)</p>
         </section>
         <section id="sketch">
             <div id="sketchPad"></div>
         </section>
     </main>
-
 
     <script src="app.js"></script>
 </body>
