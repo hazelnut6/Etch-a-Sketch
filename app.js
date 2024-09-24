@@ -19,8 +19,8 @@ function createDivs(num){
         const newDiv = document.createElement("div");
         newDiv.className = "newDiv";
         newDiv.classList.add("divStyle");
-        newDiv.style.width = `calc(100% / ${num})`;
-        newDiv.style.height = `calc(100% / ${num})`;
+        sketchPad.style.gridTemplateColumns = `repeat(${num}, auto)`;
+        sketchPad.style.gridTemplateRows = `repeat(${num}, auto)`;
         sketchPad.appendChild(newDiv);
 
         // Color black
@@ -75,6 +75,7 @@ function createDivs(num){
         });
     };
 };
+
 createDivs(ask);
 
 
