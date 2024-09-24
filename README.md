@@ -1,3 +1,3 @@
-#Etch-A-Sketch🖌
+# Etch-A-Sketch :paintbrush:
 
 Project that focuses on manipulating the DOM using JavaScript. [Click here to see](https://hazelnut6.github.io/Etch-a-Sketch/)
