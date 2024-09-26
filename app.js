@@ -8,10 +8,14 @@ const click = document.querySelector("#click");
 const hover = document.querySelector("#hover");
 const eraseCell = document.querySelector("#eraseCell");
 const eraseAll = document.querySelector("#eraseAll");
+const gridNum = document.querySelector(".gridNum");
+
 
 
 // Number of cells input
 let ask = prompt("Choose number from 1 - 100");
+gridNum.textContent = `${ask} x ${ask} grid`;
+
 
 // Create cells
 function createDivs(num){
